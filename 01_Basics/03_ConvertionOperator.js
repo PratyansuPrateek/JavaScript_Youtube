@@ -46,8 +46,16 @@ let nameBoolean = Boolean(name)
  In JavaScript, true becomes 1 and false becomes 0 during numeric conversion.
 */
 
-console.log("1" + 2 + 2); // when we do then it will take every thing as a String because in first operation happening concatination o/p: 122
-console.log(1+2+"2"); // but here first operation is happening addition then conscatination so result is o/p: 32
+// console.log("1" + 2 + 2); // when we do then it will take every thing as a String because in first operation happening concatination o/p: 122
+// console.log(1+2+"2"); // but here first operation is happening addition then conscatination so result is o/p: 32
+
+// Unary Operator 
+
+let a =  10;
+console.log(a++); // 10
+console.log(++a); // 12
+
+
 
 
 
